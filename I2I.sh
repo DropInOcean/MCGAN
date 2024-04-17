@@ -1,0 +1,1 @@
+python I2I_step2.py --dataroot /DATA2023/wgw/DATASETS_all/final/Simons/ --name T1_T2flair_attentiongan --which_direction AtoB --lambda_A 100 --batchSize 8 --output_nc 1 --input_nc 1 --gpu_ids 2  --niter 50 --niter_decay 50 --save_epoch_freq 40 --dataset_mode aligned --lambda_vgg 100 --checkpoints_dir checkpoints/ --training

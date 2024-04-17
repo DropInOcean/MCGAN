@@ -1,0 +1,1 @@
+python  I2I_step2.py  --dataroot /DATA2023/wsl/Srdata20240409/ --name T1_DWI --phase test --output_nc 1 --input_nc 1 --how_many 683 --results_dir results/ --checkpoints_dir /DATA2024/wgw/ckeckpoint/pgan/IXI_final/ --which_epoch latest --dataset_mode aligned --gpu_ids 0

@@ -1,0 +1,1 @@
+python DA_step1.py --dataroot /DATA2023/wgw/DATASETS_all/mat_IXI_T1_T2 --name T1_T2_cgan --model cGAN_T1_T2 --output_nc 1 --input_nc 1 --gpu_ids 1 --niter 50 --niter_decay 50 --save_epoch_freq 50 --lambda_A 100 --lambda_B 100 --checkpoints_dir checkpoints --batchSize 12 --dataset_mode unaligned_mat --training

@@ -1,0 +1,1 @@
+python DA_step1.py --dataroot /DATA2023/wgw/DATASETS_all/final/Simons --name T1_T2_attgan --phase test --output_nc 1 --input_nc 1 --how_many 8700 --results_dir results/ --checkpoints_dir /DATA2024/wgw/ckeckpoint/attgan/ --which_epoch 50 --dataset_mode unaligned --gpu_ids 1
